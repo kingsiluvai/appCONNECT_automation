@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="appconnect.automation1.LoginappCONNECT"/>
+      <class name="appconnect.automation1.loaderCreation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

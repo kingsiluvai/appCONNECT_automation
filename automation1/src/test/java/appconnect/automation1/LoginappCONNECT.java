@@ -24,6 +24,7 @@ public void login() throws Exception
 	LoginPage lgn = new LoginPage(driver);
 	lgn.Login_value();
 	snapshot.screens(driver);
+	Thread.sleep(2000);
 
 	
 

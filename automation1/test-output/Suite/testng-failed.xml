@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="appconnect.automation1.LoginappCONNECT">
+      <class name="appconnect.automation1.loaderCreation">
         <methods>
-          <include name="login"/>
+          <include name="New_load_create"/>
         </methods>
-      </class> <!-- appconnect.automation1.LoginappCONNECT -->
+      </class> <!-- appconnect.automation1.loaderCreation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
