@@ -33,7 +33,7 @@ public class loaderCreationPage
 		Thread.sleep(3000);
 		New_loader_click.click();
 		Thread.sleep(3000);
-		action.scroll(driver);
+		action.scroll(driver, Loader_conn_select);
 		Loader_conn_select.click();
 		Thread.sleep(3000);
 	}

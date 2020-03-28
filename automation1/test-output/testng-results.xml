@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59339" started-at="2020-03-28T17:35:17Z" finished-at="2020-03-28T17:36:16Z">
+  <suite name="Suite" duration-ms="36184" started-at="2020-03-28T17:55:45Z" finished-at="2020-03-28T17:56:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59339" started-at="2020-03-28T17:35:17Z" finished-at="2020-03-28T17:36:16Z">
+    <test name="Test" duration-ms="36184" started-at="2020-03-28T17:55:45Z" finished-at="2020-03-28T17:56:21Z">
       <class name="appconnect.automation1.LoginappCONNECT">
-        <test-method status="PASS" signature="login()[pri:0, instance:appconnect.automation1.LoginappCONNECT@754ba872]" name="login" duration-ms="59315" started-at="2020-03-28T17:35:17Z" finished-at="2020-03-28T17:36:16Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:appconnect.automation1.LoginappCONNECT@14acaea5]" name="login" duration-ms="36167" started-at="2020-03-28T17:55:45Z" finished-at="2020-03-28T17:56:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

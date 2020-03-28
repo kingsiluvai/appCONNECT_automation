@@ -17,13 +17,13 @@ public void screens(WebDriver driver) throws IOException
 	
 	String default_text="king";
 	//String name = null;
-	/* Random rand = new Random(); 
+	 Random rand = new Random(); 
 	  
      // Generate random integers in range 0 to 999 
      int rand_int1 = rand.nextInt(1000); 
      //int rand_int2 = rand.nextInt(1000);
-*/     
-    
+     
+	 System.out.println("Inside the screen page");
 	
 	TakesScreenshot scrShot =((TakesScreenshot)driver);
 
@@ -33,7 +33,7 @@ public void screens(WebDriver driver) throws IOException
 
         //Move image file to new destination
 
-            File DestFile=new File("E:/Appconnect/automation1/Screens/"+default_text+".png");
+            File DestFile=new File("C:\\Users\\irudhyakingston.r\\git\\appCONNECT_automation\\automation1\\Screens\\"+default_text+rand_int1+".png");
 
             //Copy file at destination
 

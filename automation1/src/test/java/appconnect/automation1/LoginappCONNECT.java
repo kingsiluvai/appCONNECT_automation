@@ -11,13 +11,14 @@ import Utils.Snapshots;
 public class LoginappCONNECT
 {
 	
+	
+@Test
+public void login() throws Exception
+{
 	WebDriver driver = null;
 	Snapshots snapshot=new Snapshots();
 	Log_test log=new Log_test();
 	BrowserSetting bs=new BrowserSetting();
-@Test
-public void login() throws Exception
-{
 	driver=bs.BrowserSettings();
 	log.log_text(driver, "browser started ");
 	LoginPage lgn = new LoginPage(driver);
@@ -26,5 +27,6 @@ public void login() throws Exception
 	Thread.sleep(2000);
 	loaderCreationPage creation=new loaderCreationPage(driver);
 	creation.loader_create();
+	snapshot.screens(driver);
 }
 }
