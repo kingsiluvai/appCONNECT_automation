@@ -5,8 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Utils.Actions;
+
 public class loaderCreationPage 
 {
+	Actions action=new Actions();
 	WebDriver driver;
 	@FindBy(xpath="//div[@id='cs_switchmenu']")
 	WebElement switch_Menu;
@@ -14,7 +17,6 @@ public class loaderCreationPage
 	WebElement Loader_menu_select;
 	@FindBy(xpath="//i[@class='icon-cs-new']")
 	WebElement New_loader_click;
-
 	@FindBy(xpath=".//div[@title = 'CORE_V15_DEV']//preceding::i[2]")
 	WebElement Loader_conn_select;
 	public loaderCreationPage(WebDriver driver)
@@ -31,6 +33,7 @@ public class loaderCreationPage
 		Thread.sleep(3000);
 		New_loader_click.click();
 		Thread.sleep(3000);
+		action.scroll(driver);
 		Loader_conn_select.click();
 		Thread.sleep(3000);
 	}
